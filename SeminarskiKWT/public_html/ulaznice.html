@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Ulaznice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- comment -->
+        <script type="text/javascript" src="script.js"></script>
+	 <style type="text/css"></style>
+        <link rel="stylesheet" type="text/css" href="ulaznice.css"/> 
+        
+    </head>
+    <body onload="loadDoc(); prikaziPredstave()">
+        <div id = "container">
+	<img src="header.jpeg" padding-left:="" 10px;="" style="padding-left: 10px;border-bottom-width: 0px;border-bottom-style: solid;margin-bottom: -46px;" width="1515px" height="400px">
+	</div>
+	
+	<div id = "menu">
+	<nav>
+<ul style="padding-left: 121px; padding-right: 100px;">	
+	<li><a href="index.html" class="selected">Pocetna</a></li>
+	<li><a href="predstave.html">Predstave</a></li>
+        <li><a href="ulaznice.html">Ulaznice</a></li>
+	<li><a href="onama.html">O nama</a></li>
+	<li><a href="kontakt.html" style="padding-right: 0px;">Kontakt</a></li>
+</ul>
+	</nav>
+	</div>
+
+	<br>
+	<br>
+
+        <div id="content">
+             <form>
+                Ime: <input name="ime" style="width:170px;" id="ime"><br>
+                Prezime: <input name="prezime" style="width:170px;" id="prezime"><br>
+                Email: <input name="email" style="width:170px;" id="email"><br>
+                Izaberite broj karata: <select id="brojKarata" name="brojKarata" style="width:45px">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                 </select>            
+     
+            </form>  
+       
+       
+            <div id="results">
+                <div >
+                    <table id="tabela1">
+                        
+                    </table>
+                </div>
+               
+          
+                <div style="clear: both;"></div>
+            </div>
+
+        </div>
+ 
+  <footer>
+<p style="margin-top: 22px;padding-top: 19px;padding-bottom: 21px;">Dodjite u pozoriste!</p>
+</footer>
+        
+        
+    </body>
+</html>

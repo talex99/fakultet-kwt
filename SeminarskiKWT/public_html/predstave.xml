@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<catalog>
+   <predstava id="pr1">
+      <title>Karmen</title>
+      <price>350</price>
+   </predstava>
+   
+     <predstava id="pr2">
+      <title>Voz</title>
+      <price>350</price>
+   </predstava>
+   
+     <predstava id="pr3">
+      <title>Vrat od stakla</title>
+      <price>300</price>
+   </predstava>
+   
+     <predstava id="pr4">
+      <title>Hamlet</title>
+      <price>350</price>
+   </predstava>
+   
+     <predstava id="pr5">
+      <title>Amsterdam</title>
+      <price>450</price>
+   </predstava>
+   
+     <predstava id="pr6">
+      <title>Alisa</title>
+      <price>250</price>
+   </predstava>
+   
+</catalog>
